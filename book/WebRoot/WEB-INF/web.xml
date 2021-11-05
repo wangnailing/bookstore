@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	
+	<listener>
+        <listener-class>
+org.springframework.web.context.ContextLoaderListener
+        </listener-class>
+</listener>
+	<context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>/WEB-INF/applicationContext.xml</param-value>
+  </context-param>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddServlet</servlet-name>
+    <servlet-class>com.servlet.AddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserListServlet</servlet-name>
+    <servlet-class>com.servlet.UserListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelServlet</servlet-name>
+    <servlet-class>com.servlet.DelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>login</servlet-name>
+    <servlet-class>com.book.servlet.login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>add</servlet-name>
+    <servlet-class>com.book.servlet.add</servlet-class>
+    </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addd</servlet-name>
+    <servlet-class>com.cart.servlet.addd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminList</servlet-name>
+    <servlet-class>com.book.servlet.AdminList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>del</servlet-name>
+    <servlet-class>com.book.servlet.del</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>chaxun</servlet-name>
+    <servlet-class>com.book.servlet.chaxun</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>update</servlet-name>
+    <servlet-class>com.book.servlet.update</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>update1</servlet-name>
+    <servlet-class>com.book.servlet.update1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>xiangqing</servlet-name>
+    <servlet-class>com.book.servlet.xiangqing</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>booklist</servlet-name>
+    <servlet-class>com.book.servlet.booklist</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>cart</servlet-name>
+    <servlet-class>com.book.servlet.cart</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>cartt</servlet-name>
+    <servlet-class>com.cart.servlet.cartt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>adminlogin</servlet-name>
+    <servlet-class>com.book.servlet.adminlogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userlist</servlet-name>
+    <servlet-class>com.servlet.userlist</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>aadmin</servlet-name>
+    <servlet-class>com.book.servlet.aadmin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userupdate</servlet-name>
+    <servlet-class>com.servlet.userupdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userdel</servlet-name>
+    <servlet-class>com.servlet.userdel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userupdate1</servlet-name>
+    <servlet-class>com.servlet.userupdate1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>dell</servlet-name>
+    <servlet-class>com.book.servlet.dell</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>booklist1</servlet-name>
+    <servlet-class>com.book.servlet.booklist1</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>padd</servlet-name>
+    <servlet-class>com.book.servlet.padd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>pdel</servlet-name>
+    <servlet-class>com.book.servlet.pdel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>payadd</servlet-name>
+    <servlet-class>com.book.servlet.payadd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>pay</servlet-name>
+    <servlet-class>com.book.servlet.pay</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>paydel</servlet-name>
+    <servlet-class>com.book.servlet.paydel</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddServlet</servlet-name>
+    <url-pattern>/servlet/AddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserListServlet</servlet-name>
+    <url-pattern>/servlet/UserListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelServlet</servlet-name>
+    <url-pattern>/servlet/DelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>login</servlet-name>
+    <url-pattern>/servlet/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>add</servlet-name>
+    <url-pattern>/servlet/add</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addd</servlet-name>
+    <url-pattern>/servlet/addd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminList</servlet-name>
+    <url-pattern>/servlet/AdminList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>del</servlet-name>
+    <url-pattern>/servlet/del</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>chaxun</servlet-name>
+    <url-pattern>/servlet/chaxun</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>update</servlet-name>
+    <url-pattern>/servlet/update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>update1</servlet-name>
+    <url-pattern>/servlet/update1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>xiangqing</servlet-name>
+    <url-pattern>/servlet/xiangqing</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>booklist</servlet-name>
+    <url-pattern>/servlet/booklist</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cart</servlet-name>
+    <url-pattern>/servlet/cart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cartt</servlet-name>
+    <url-pattern>/servlet/cartt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>adminlogin</servlet-name>
+    <url-pattern>/servlet/adminlogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userlist</servlet-name>
+    <url-pattern>/servlet/userlist</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>aadmin</servlet-name>
+    <url-pattern>/servlet/aadmin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userupdate</servlet-name>
+    <url-pattern>/servlet/userupdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userdel</servlet-name>
+    <url-pattern>/servlet/userdel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userupdate1</servlet-name>
+    <url-pattern>/servlet/userupdate1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>dell</servlet-name>
+    <url-pattern>/servlet/dell</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>booklist1</servlet-name>
+    <url-pattern>/servlet/booklist1</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>padd</servlet-name>
+    <url-pattern>/servlet/padd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pdel</servlet-name>
+    <url-pattern>/servlet/pdel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>payadd</servlet-name>
+    <url-pattern>/servlet/payadd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pay</servlet-name>
+    <url-pattern>/servlet/pay</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>paydel</servlet-name>
+    <url-pattern>/servlet/paydel</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
